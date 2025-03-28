@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Free AI-powered YouTube title generator tool. Create high-CTR, SEO-optimized titles with keyword integration, competitor analysis, and trending suggestions.">
+    <meta name="keywords" content=" free youtube title generator tool, viral youtube title generator, catchy youtube title generator, ai youtube title generator free, YouTube title generator, video title generator, SEO title generator, high CTR titles, YouTube SEO tool">
+    <meta name="author" content="Hasanvlo">
+    <meta property="og:title" content="Advanced YouTube Title Generator | Boost Your CTR">
+    <meta property="og:description" content=" Generate high-performing YouTube titles with our free AI-powered tool. Optimized for SEO and maximum click-through rates.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/youtube-title-generator">
+    <meta name="robots" content="index, follow">
+    <title>Advanced YouTube Title Generator | AI-Powered SEO Tool</title>
+    <link rel="canonical" href="https://yourdomain.com/youtube-title-generator">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #FF0000;
+            --secondary-color: #282828;
+            --accent-color: #065FD4;
+            --light-gray: #f8f9fa;
+            --medium-gray: #e9ecef;
+            --dark-gray: #343a40;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+            --danger-color: #dc3545;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--dark-gray);
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo i {
+            margin-right: 0.5rem;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: var(--dark-gray);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: var(--primary-color);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #cc0000;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .btn-outline:hover {
+            background-color: rgba(255, 0, 0, 0.1);
+        }
+
+        .btn-secondary {
+            background-color: var(--secondary-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: #1a1a1a;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 0;
+            background: linear-gradient(135deg, #f9f9f9 0%, #e9e9e9 100%);
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--dark-gray);
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--dark-gray);
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            opacity: 0.8;
+        }
+
+        .title-tool {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin: 2rem auto;
+        }
+
+        .tool-sidebar {
+            flex: 1;
+            min-width: 300px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem;
+            height: fit-content;
+        }
+
+        .tool-main {
+            flex: 2;
+            min-width: 300px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            padding: 2rem;
+        }
+
+        .sidebar-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .sidebar-section h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: var(--dark-gray);
+            display: flex;
+            align-items: center;
+        }
+
+        .sidebar-section h3 i {
+            margin-right: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+        }
+
+        .select-control {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .checkbox-group input {
+            margin-right: 0.5rem;
+        }
+
+        .checkbox-group label {
+            font-size: 0.9rem;
+        }
+
+        .range-slider {
+            width: 100%;
+            height: 8px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #ddd;
+            outline: none;
+            border-radius: 4px;
+            margin-top: 0.5rem;
+        }
+
+        .range-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .range-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.1);
+            background: #cc0000;
+        }
+
+        .slider-labels {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.3rem;
+            font-size: 0.8rem;
+            color: var(--dark-gray);
+            opacity: 0.7;
+        }
+
+        .title-results {
+            margin-top: 2rem;
+        }
+
+        .title-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: all 0.3s;
+        }
+
+        .title-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .title-text {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            color: var(--dark-gray);
+        }
+
+        .title-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: var(--dark-gray);
+            opacity: 0.7;
+        }
+
+        .title-score {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 0.8rem;
+        }
+
+        .score-high {
+            background-color: rgba(40, 167, 69, 0.1);
+            color: var(--success-color);
+        }
+
+        .score-medium {
+            background-color: rgba(255, 193, 7, 0.1);
+            color: var(--warning-color);
+        }
+
+        .score-low {
+            background-color: rgba(220, 53, 69, 0.1);
+            color: var(--danger-color);
+        }
+
+        .title-actions {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .title-actions .btn {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.8rem;
+        }
+
+        .title-stats {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            font-size: 0.8rem;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .stat-item i {
+            margin-right: 0.3rem;
+            color: var(--primary-color);
+        }
+
+        .title-feedback {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+            font-size: 0.9rem;
+            color: var(--dark-gray);
+        }
+
+        .title-feedback h4 {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .title-feedback ul {
+            padding-left: 1.2rem;
+        }
+
+        .title-feedback li {
+            margin-bottom: 0.3rem;
+        }
+
+        .ad-container {
+            margin: 2rem 0;
+            text-align: center;
+            background-color: var(--light-gray);
+            padding: 1rem;
+            border-radius: 4px;
+        }
+
+        .ad-label {
+            font-size: 0.8rem;
+            color: var(--dark-gray);
+            margin-bottom: 0.5rem;
+            opacity: 0.7;
+        }
+
+        .features {
+            padding: 3rem 0;
+            background-color: white;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background-color: var(--light-gray);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 0.5rem;
+            color: var(--dark-gray);
+        }
+
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 1.5rem;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .copyright {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+
+        .spinner {
+            display: none;
+            width: 40px;
+            height: 40px;
+            margin: 0 auto;
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            border-top: 4px solid var(--primary-color);
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .breadcrumb {
+            padding: 1rem 0;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .tab-container {
+            margin-bottom: 1.5rem;
+        }
+
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .tab {
+            padding: 0.75rem 1.5rem;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .tab.active {
+            border-bottom-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .tab-content {
+            display: none;
+            padding: 1rem 0;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .keyword-tag {
+            display: inline-block;
+            background-color: rgba(255, 0, 0, 0.1);
+            color: var(--primary-color);
+            padding: 0.3rem 0.6rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+        }
+
+        .keyword-tag:hover {
+            background-color: rgba(255, 0, 0, 0.2);
+        }
+
+        .keyword-tag i {
+            margin-left: 0.3rem;
+        }
+
+        .trending-list {
+            list-style: none;
+        }
+
+        .trending-item {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .trending-item:hover {
+            background-color: var(--light-gray);
+        }
+
+        .trending-item:last-child {
+            border-bottom: none;
+        }
+
+        .trending-item i {
+            color: var(--primary-color);
+            margin-right: 0.5rem;
+        }
+
+        .competitor-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .competitor-title {
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .competitor-stats {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.8rem;
+            color: var(--dark-gray);
+            opacity: 0.7;
+        }
+
+        .competitor-stat {
+            display: flex;
+            align-items: center;
+        }
+
+        .competitor-stat i {
+            margin-right: 0.3rem;
+            color: var(--primary-color);
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+            }
+            
+            nav ul {
+                margin-top: 1rem;
+            }
+            
+            nav ul li {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .title-tool {
+                flex-direction: column;
+            }
+            
+            .tool-sidebar, .tool-main {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="/" class="logo"><i class="fab fa-youtube"></i> TitleGenius</a>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/tools">Tools</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                    <li><a href="/login" class="btn btn-outline">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="breadcrumb container">
+        <a href="/">Home</a> &gt; <span>YouTube Title Generator</span>
+    </div>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Advanced YouTube Title Generator</h1>
+            <p>Boost your click-through rates with AI-powered, SEO-optimized YouTube titles tailored for maximum engagement</p>
+        </div>
+    </section>
+    
+    <div class="container">
+        <!-- Top Ad Banner -->
+        <div class="ad-container">
+            <div class="ad-label">Advertisement</div>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                 data-ad-slot="YOUR_AD_SLOT_ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        
+        <div class="title-tool">
+            <div class="tool-sidebar">
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-key"></i> Video Information</h3>
+                    <div class="form-group">
+                        <label for="videoTopic">Video Topic/Keyword</label>
+                        <input type="text" id="videoTopic" class="form-control" placeholder="What is your video about?">
+                    </div>
+                    <div class="form-group">
+                        <label for="videoDescription">Brief Description</label>
+                        <textarea id="videoDescription" class="form-control" rows="3" placeholder="Describe your video content in 1-2 sentences"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="videoCategory">Video Category</label>
+                        <select id="videoCategory" class="select-control">
+                            <option value="">Select a category</option>
+                            <option value="education">Education</option>
+                            <option value="entertainment">Entertainment</option>
+                            <option value="gaming">Gaming</option>
+                            <option value="howto">How-to & Style</option>
+                            <option value="tech">Technology</option>
+                            <option value="cooking">Cooking</option>
+                            <option value="travel">Travel</option>
+                            <option value="fitness">Fitness</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-sliders-h"></i> Title Settings</h3>
+                    <div class="form-group">
+                        <label for="titleStyle">Title Style</label>
+                        <select id="titleStyle" class="select-control">
+                            <option value="standard">Standard</option>
+                            <option value="question">Question</option>
+                            <option value="list">List (e.g., 5 Ways to...)</option>
+                            <option value="howto">How-to</option>
+                            <option value="shocking">Shocking/Controversial</option>
+                            <option value="emotional">Emotional Appeal</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="titleLength">Title Length</label>
+                        <select id="titleLength" class="select-control">
+                            <option value="short">Short (under 40 chars)</option>
+                            <option value="medium" selected>Medium (40-60 chars)</option>
+                            <option value="long">Long (60-70 chars)</option>
+                        </select>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="includeNumbers" checked>
+                        <label for="includeNumbers">Include numbers (e.g., 5 Tips, 10 Secrets)</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="includePowerWords" checked>
+                        <label for="includePowerWords">Include power words</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="includeEmojis">
+                        <label for="includeEmojis">Include emojis</label>
+                    </div>
+                </div>
+                
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-tags"></i> Keywords & SEO</h3>
+                    <div class="form-group">
+                        <label for="mainKeyword">Main Keyword</label>
+                        <input type="text" id="mainKeyword" class="form-control" placeholder="Primary keyword for your video">
+                    </div>
+                    <div class="form-group">
+                        <label for="secondaryKeywords">Secondary Keywords</label>
+                        <input type="text" id="secondaryKeywords" class="form-control" placeholder="Additional keywords (comma separated)">
+                    </div>
+                    <div class="form-group">
+                        <label>Suggested Keywords</label>
+                        <div id="suggestedKeywords">
+                            <span class="keyword-tag">tutorial<i class="fas fa-plus"></i></span>
+                            <span class="keyword-tag">beginners guide<i class="fas fa-plus"></i></span>
+                            <span class="keyword-tag">step by step<i class="fas fa-plus"></i></span>
+                            <span class="keyword-tag">easy way<i class="fas fa-plus"></i></span>
+                            <span class="keyword-tag">2023<i class="fas fa-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="btn" id="generateBtn" style="width: 100%;">
+                    <i class="fas fa-magic"></i> Generate Titles
+                </button>
+                
+                <div class="spinner" id="spinner"></div>
+            </div>
+            
+            <div class="tool-main">
+                <div class="tab-container">
+                    <div class="tabs">
+                        <div class="tab active" data-tab="titles">Generated Titles</div>
+                        <div class="tab" data-tab="trending">Trending Topics</div>
+                        <div class="tab" data-tab="competitors">Competitor Analysis</div>
+                    </div>
+                    
+                    <div class="tab-content active" id="titlesTab">
+                        <div class="title-results" id="titleResults">
+                            <div class="title-card">
+                                <div class="title-text">How to Make Perfect Pancakes - Easy Step-by-Step Tutorial (2023)</div>
+                                <div class="title-meta">
+                                    <span>Characters: 62</span>
+                                    <span class="title-score score-high">CTR: 8.5/10</span>
+                                </div>
+                                <div class="title-stats">
+                                    <div class="stat-item">
+                                        <i class="fas fa-key"></i> Keywords: 4
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-bolt"></i> Power Words: 2
+                                    </div>
+                                </div>
+                                <div class="title-actions">
+                                    <button class="btn btn-secondary">
+                                        <i class="fas fa-copy"></i> Copy
+                                    </button>
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </button>
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-chart-line"></i> A/B Test
+                                    </button>
+                                </div>
+                                <div class="title-feedback">
+                                    <h4>Improvement Suggestions:</h4>
+                                    <ul>
+                                        <li>Consider adding an emoji to increase visibility</li>
+                                        <li>Try a more emotional hook in the beginning</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="title-card">
+                                <div class="title-text">5 Secrets to Fluffy Pancakes Every Time | Beginner's Cooking Guide</div>
+                                <div class="title-meta">
+                                    <span>Characters: 58</span>
+                                    <span class="title-score score-high">CTR: 8.2/10</span>
+                                </div>
+                                <div class="title-stats">
+                                    <div class="stat-item">
+                                        <i class="fas fa-key"></i> Keywords: 3
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-bolt"></i> Power Words: 1
+                                    </div>
+                                </div>
+                                <div class="title-actions">
+                                    <button class="btn btn-secondary">
+                                        <i class="fas fa-copy"></i> Copy
+                                    </button>
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </button>
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-chart-line"></i> A/B Test
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="title-card">
+                                <div class="title-text">Pancake Recipe: The Only One You'll Ever Need!</div>
+                                <div class="title-meta">
+                                    <span>Characters: 45</span>
+                                    <span class="title-score score-medium">CTR: 7.1/10</span>
+                                </div>
+                                <div class="title-stats">
+                                    <div class="stat-item">
+                                        <i class="fas fa-key"></i> Keywords: 2
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-bolt"></i> Power Words: 1
+                                    </div>
+                                </div>
+                                <div class="title-actions">
+                                    <button class="btn btn-secondary">
+                                        <i class="fas fa-copy"></i> Copy
+                                    </button>
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </button>
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-chart-line"></i> A/B Test
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="trendingTab">
+                        <h3>Currently Trending Topics</h3>
+                        <ul class="trending-list">
+                            <li class="trending-item">
+                                <i class="fas fa-arrow-up"></i> "Air Fryer Recipes 2023"
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-arrow-up"></i> "Quick Breakfast Ideas"
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-arrow-up"></i> "Healthy Meal Prep"
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-arrow-up"></i> "5-Ingredient Recipes"
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-arrow-up"></i> "Cooking Hacks"
+                            </li>
+                        </ul>
+                        
+                        <h3 style="margin-top: 2rem;">Popular Title Formulas</h3>
+                        <ul class="trending-list">
+                            <li class="trending-item">
+                                <i class="fas fa-lightbulb"></i> "X Ways to [Achieve Result] Without [Common Problem]"
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-lightbulb"></i> "The Ultimate Guide to [Topic] in 2023"
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-lightbulb"></i> "[Number] [Topic] Hacks You Need to Know"
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-lightbulb"></i> "How I [Achieved Result] in [Time Period]"
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-lightbulb"></i> "The Truth About [Topic] That [Group] Doesn't Want You to Know"
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-content" id="competitorsTab">
+                        <h3>Top Performing Competitor Titles</h3>
+                        
+                        <div class="competitor-card">
+                            <div class="competitor-title">How to Make Fluffy Pancakes Like a Pro (3 Secret Ingredients!)</div>
+                            <div class="competitor-stats">
+                                <div class="competitor-stat">
+                                    <i class="fas fa-eye"></i> 2.4M views
+                                </div>
+                                <div class="competitor-stat">
+                                    <i class="fas fa-thumbs-up"></i> 89% like rate
+                                </div>
+                                <div class="competitor-stat">
+                                    <i class="fas fa-clock"></i> 8:32 duration
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="competitor-card">
+                            <div class="competitor-title">5 Pancake Mistakes You're Making (And How to Fix Them)</div>
+                            <div class="competitor-stats">
+                                <div class="competitor-stat">
+                                    <i class="fas fa-eye"></i> 1.7M views
+                                </div>
+                                <div class="competitor-stat">
+                                    <i class="fas fa-thumbs-up"></i> 92% like rate
+                                </div>
+                                <div class="competitor-stat">
+                                    <i class="fas fa-clock"></i> 10:15 duration
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="competitor-card">
+                            <div class="competitor-title">The BEST Pancake Recipe You'll Ever Try (Seriously!)</div>
+                            <div class="competitor-stats">
+                                <div class="competitor-stat">
+                                    <i class="fas fa-eye"></i> 3.1M views
+                                </div>
+                                <div class="competitor-stat">
+                                    <i class="fas fa-thumbs-up"></i> 94% like rate
+                                </div>
+                                <div class="competitor-stat">
+                                    <i class="fas fa-clock"></i> 7:48 duration
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h3 style="margin-top: 2rem;">Competitor Title Analysis</h3>
+                        <ul class="trending-list">
+                            <li class="trending-item">
+                                <i class="fas fa-check-circle"></i> 82% of top videos use numbers in their titles
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-check-circle"></i> Top videos average 2.3 power words per title
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-check-circle"></i> 67% include a year or "new" in the title
+                            </li>
+                            <li class="trending-item">
+                                <i class="fas fa-check-circle"></i> Average title length is 54 characters
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Middle Ad Banner -->
+        <div class="ad-container">
+            <div class="ad-label">Advertisement</div>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                 data-ad-slot="YOUR_AD_SLOT_ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        
+        <section class="features">
+            <div class="container">
+                <h2>Why Use Our YouTube Title Generator?</h2>
+                <p>Get more views and higher rankings with our advanced title optimization tools</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-brain"></i></div>
+                        <h3>AI-Powered Generation</h3>
+                        <p>Our advanced AI analyzes thousands of high-performing titles to create the most engaging options for your video.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>CTR Optimization</h3>
+                        <p>Every title is scored and optimized for maximum click-through rates using proven psychological triggers.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-search"></i></div>
+                        <h3>Keyword Integration</h3>
+                        <p>We automatically include high-ranking keywords from YouTube and Google search trends.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-users"></i></div>
+                        <h3>Competitor Analysis</h3>
+                        <p>See what titles are working for similar channels and get suggestions to outperform them.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                        <h3>Power Words</h3>
+                        <p>Our database includes hundreds of high-CTR power words that grab attention and drive clicks.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-globe"></i></div>
+                        <h3>Multi-Language Support</h3>
+                        <p>Generate titles in multiple languages to reach a global audience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Bottom Ad Banner -->
+        <div class="ad-container">
+            <div class="ad-label">Advertisement</div>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                 data-ad-slot="YOUR_AD_SLOT_ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container footer-content">
+            <a href="/" class="logo" style="color: white; margin-bottom: 1rem;"><i class="fab fa-youtube"></i> TitleGenius</a>
+            <div class="footer-links">
+                <a href="/about">About Us</a>
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+                <a href="/contact">Contact</a>
+                <a href="/blog">Blog</a>
+            </div>
+            <div class="copyright">
+                &copy; 2023 TitleGenius. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Tab functionality
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs and contents
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                
+                // Add active class to clicked tab
+                tab.classList.add('active');
+                
+                // Show corresponding content
+                const tabId = tab.getAttribute('data-tab');
+                document.getElementById(`${tabId}Tab`).classList.add('active');
+            });
+        });
+        
+        // Generate button functionality
+        document.getElementById('generateBtn').addEventListener('click', function() {
+            const spinner = document.getElementById('spinner');
+            const generateBtn = document.getElementById('generateBtn');
+            
+            // Show spinner and disable button
+            spinner.style.display = 'block';
+            generateBtn.disabled = true;
+            generateBtn.innerHTML = '<i class="fas fa-cog fa-spin"></i> Generating...';
+            
+            // Simulate API call with timeout
+            setTimeout(() => {
+                // Hide spinner and enable button
+                spinner.style.display = 'none';
+                generateBtn.disabled = false;
+                generateBtn.innerHTML = '<i class="fas fa-magic"></i> Generate Titles';
+                
+                // Here you would typically update the titleResults with actual generated titles
+                // For now, we'll just show an alert
+                alert('Titles generated successfully! In a real implementation, this would update the title cards with AI-generated suggestions.');
+            }, 2000);
+        });
+        
+        // Copy title functionality
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('.btn-secondary')) {
+                const titleCard = e.target.closest('.title-card');
+                const titleText = titleCard.querySelector('.title-text').textContent;
+                
+                navigator.clipboard.writeText(titleText).then(() => {
+                    const originalText = e.target.innerHTML;
+                    e.target.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                    
+                    setTimeout(() => {
+                        e.target.innerHTML = originalText;
+                    }, 2000);
+                });
+            }
+        });
+        
+        // Add keyword tag functionality
+        document.querySelectorAll('.keyword-tag').forEach(tag => {
+            tag.addEventListener('click', function() {
+                const keyword = this.textContent.replace('+', '').trim();
+                const secondaryKeywords = document.getElementById('secondaryKeywords');
+                
+                if (secondaryKeywords.value === '') {
+                    secondaryKeywords.value = keyword;
+                } else {
+                    secondaryKeywords.value += ', ' + keyword;
+                }
+            });
+        });
+        
+        // Initialize AdSense
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</body>
+</html>
